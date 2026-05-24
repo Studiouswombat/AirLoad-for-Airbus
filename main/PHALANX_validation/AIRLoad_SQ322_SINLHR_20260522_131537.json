@@ -1,0 +1,158 @@
+{
+  "document_type": "AIRLoad Cargo Configuration",
+  "generated_utc": "2026-05-22T11:59:46Z",
+  "aircraft": "Airbus A350-1000",
+  "flight": {
+    "flight_number": "SQ 322",
+    "origin": "SIN",
+    "destination": "LHR",
+    "flight_hours": 13.5,
+    "alternate_hours": 0.75
+  },
+  "fuel": {
+    "fuel_loaded_kg": 108000.0,
+    "burn_rate_kg_per_hr": 6963.0,
+    "wing_tank_cg_x_m": 27.5
+  },
+  "weight_breakdown": {
+    "operating_empty_weight_kg": 155000.0,
+    "passengers_kg": 26600.0,
+    "fuel_kg": 108000.0,
+    "cargo_kg": 27250.0,
+    "ramp_weight_kg": 316850.0
+  },
+  "centre_of_gravity": {
+    "ramp_cg_pct_mac": 27.643,
+    "cg_fwd_limit": 26.0,
+    "cg_aft_limit": 35.0,
+    "cg_target": 30.0,
+    "status": "yellow"
+  },
+  "cargo_manifest": [
+    {
+      "item": "Engine Parts",
+      "weight_kg": 8500.0,
+      "assigned_zone": "AFT_04L",
+      "hold": "Aft Hold",
+      "zone_x_m": 37.0,
+      "cg_after_placement_pct_mac": null,
+      "manual_lock": false
+    },
+    {
+      "item": "Medical Supplies",
+      "weight_kg": 500.0,
+      "assigned_zone": "FWD_01L",
+      "hold": "Forward Hold",
+      "zone_x_m": 15.0,
+      "cg_after_placement_pct_mac": null,
+      "manual_lock": false
+    },
+    {
+      "item": "Spare Avionics",
+      "weight_kg": 4000.0,
+      "assigned_zone": "AFT_04R",
+      "hold": "Aft Hold",
+      "zone_x_m": 37.0,
+      "cg_after_placement_pct_mac": null,
+      "manual_lock": false
+    },
+    {
+      "item": "Mail Bags",
+      "weight_kg": 700.0,
+      "assigned_zone": "FWD_02R",
+      "hold": "Forward Hold",
+      "zone_x_m": 17.0,
+      "cg_after_placement_pct_mac": null,
+      "manual_lock": false
+    },
+    {
+      "item": "Ground Equipment",
+      "weight_kg": 1500.0,
+      "assigned_zone": "FWD_04R",
+      "hold": "Forward Hold",
+      "zone_x_m": 21.0,
+      "cg_after_placement_pct_mac": null,
+      "manual_lock": false
+    },
+    {
+      "item": "Pharmaceuticals",
+      "weight_kg": 1200.0,
+      "assigned_zone": "FWD_03L",
+      "hold": "Forward Hold",
+      "zone_x_m": 19.0,
+      "cg_after_placement_pct_mac": null,
+      "manual_lock": false
+    },
+    {
+      "item": "E-Commerce Goods",
+      "weight_kg": 2800.0,
+      "assigned_zone": "AFT_03R",
+      "hold": "Aft Hold",
+      "zone_x_m": 35.0,
+      "cg_after_placement_pct_mac": null,
+      "manual_lock": false
+    },
+    {
+      "item": "Perishable Foods",
+      "weight_kg": 1650.0,
+      "assigned_zone": "FWD_04L",
+      "hold": "Forward Hold",
+      "zone_x_m": 21.0,
+      "cg_after_placement_pct_mac": null,
+      "manual_lock": false
+    },
+    {
+      "item": "Diplomatic Cargo",
+      "weight_kg": 350.0,
+      "assigned_zone": "FWD_01R",
+      "hold": "Forward Hold",
+      "zone_x_m": 15.0,
+      "cg_after_placement_pct_mac": null,
+      "manual_lock": false
+    },
+    {
+      "item": "Aircraft Spare Tire",
+      "weight_kg": 950.0,
+      "assigned_zone": "FWD_02L",
+      "hold": "Forward Hold",
+      "zone_x_m": 17.0,
+      "cg_after_placement_pct_mac": null,
+      "manual_lock": false
+    },
+    {
+      "item": "Luxury Consumer Goods",
+      "weight_kg": 1100.0,
+      "assigned_zone": "FWD_03R",
+      "hold": "Forward Hold",
+      "zone_x_m": 19.0,
+      "cg_after_placement_pct_mac": null,
+      "manual_lock": false
+    },
+    {
+      "item": "Oil & Gas Valves",
+      "weight_kg": 3400.0,
+      "assigned_zone": "AFT_03L",
+      "hold": "Aft Hold",
+      "zone_x_m": 35.0,
+      "cg_after_placement_pct_mac": null,
+      "manual_lock": false
+    },
+    {
+      "item": "Express Courier Documents",
+      "weight_kg": 600.0,
+      "assigned_zone": "BULK_01",
+      "hold": "Bulk Hold",
+      "zone_x_m": 40.0,
+      "cg_after_placement_pct_mac": null,
+      "manual_lock": false
+    }
+  ],
+  "hold_weights": {
+    "forward_hold_kg": 7950.0,
+    "aft_hold_kg": 18700.0,
+    "bulk_hold_kg": 600.0,
+    "forward_limit_kg": 22000,
+    "aft_limit_kg": 19000,
+    "bulk_limit_kg": 600
+  }
+}
